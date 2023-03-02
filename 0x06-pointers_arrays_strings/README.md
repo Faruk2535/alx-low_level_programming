@@ -1,0 +1,1 @@
+ponters_arrays_string
