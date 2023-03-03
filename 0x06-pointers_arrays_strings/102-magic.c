@@ -1,4 +1,8 @@
 #include <stdio.h>
+/**
+* main - function that prints out the value reassigned to a[2]
+* Return: return (0)
+*/
 
 int main(void)
 {
@@ -9,6 +13,7 @@ int *p;
 a[2] = 1024;
 p = &n;
 /*
+* main - functin that reassign value to a[2]
 * write your line of code here...
 * Remember:
 * - you are not allowed to use a
