@@ -1,0 +1,1 @@
+stateic_library
