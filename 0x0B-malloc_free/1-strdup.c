@@ -28,7 +28,7 @@ return (NULL);
 for (index = 0; str[index]; index++)
 {
 cpy[index] = str[index];
-i}
+}
 cpy[len] = '\0';
 return (cpy);
 }
