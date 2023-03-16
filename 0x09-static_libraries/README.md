@@ -1,1 +1,1 @@
-stateic_library
+malloc_free
