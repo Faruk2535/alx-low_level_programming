@@ -13,7 +13,7 @@ size_t print_list(const list_t *h)
 const list_t *cursor = h;
 size_t count = 0;
 if (cursor == NULL)
-printf(
+printf("list is empty");
 
 while (cursor != NULL)
 {
@@ -24,3 +24,6 @@ printf("[0] (nil)\n");
 count += 1;
 cursor = cursor->next;
 }
+return (count);
+}
+
