@@ -8,12 +8,13 @@
 
 size_t print_listint(const listint_t *h)
 {
-size_t count;
+unsigned int count;
 const listint_t *node = h;
-while(node!=NULL){
+while (node != NULL)
+{
 
-count++;
-node=node->next;
+count += 1;
+node = node->next;
 
 
 }
