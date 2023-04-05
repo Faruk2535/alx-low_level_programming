@@ -13,7 +13,7 @@ const listint_t *node = h;
 while (node != NULL)
 {
 printf("%d\n", node->n);
-count++;
+++count;
 node = node->next;
 
 
